@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bid Spirit - Make Auctioning happening virtually anywhere anytime</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Open+Sans&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <div class="overlay" data-overlay></div>
+
+      <a href="#" class="logo">
+        <h1>Bid Spirit</h1>
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+          
+          <li>
+            <a href="#Contactus" class="navbar-link" data-nav-link>Contact us</a>
+          </li>
+
+          <li>
+            <a href="#LiveAuction" class="navbar-link" data-nav-link>Live Auction</a>
+          </li>
+
+
+          <li>
+            <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+
+        <div class="header-contact">
+          <a href="tel:88002345678" class="contact-link">8 800 234 56 78</a>
+
+          <span class="contact-time">Mon - Sat: 9:00 am - 6:00 pm</span>
+        </div>
+
+        <a href="#featured-car" class="btn" aria-labelledby="aria-label-txt">
+          <ion-icon name="analytics-outline"></ion-icon>
+          <span id="aria-label-txt">Explore Auctions</span>
+        </a>
+
+        <a href="#" class="btn user-btn" aria-label="Profile">
+          <ion-icon name="person-outline"></ion-icon>
+        </a>
+
+        <button class="nav-toggle-btn" data-nav-toggle-btn aria-label="Toggle Menu">
+          <span class="one"></span>
+          <span class="two"></span>
+          <span class="three"></span>
+        </button>
+
+      </div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+          <div class="hero-content">
+            <h2 class="h1 hero-title">Rediscover History Unearth Treasures Your Gateway to Antique Auction Excellence </h2>
+
+            <p class="hero-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vestibulum sed lectus vitae tempus. Praesent nunc turpis, ornare eget magna vel, fermentum consequat magna. Vestibulum at eros quis urna interdum laoreet a vestibulum diam. Sed ex ex, ornare eu suscipit id, mollis sit amet tellus.
+            </p>
+          </div>
+            </div>
+            <div class="col-md-6">
+              <div class="hero-slider">
+                <img src="https://i.pinimg.com/originals/d5/06/e7/d506e7012c5c0475e1c7b80388b538f3.jpg" alt="">
+                <img src="https://i.pinimg.com/originals/d5/06/e7/d506e7012c5c0475e1c7b80388b538f3.jpg" alt="">
+                <img src="https://i.pinimg.com/originals/d5/06/e7/d506e7012c5c0475e1c7b80388b538f3.jpg" alt="">
+              </div>
+              
+            </div>
+          </div>
+
+         
+
+        </div>
+      </section>
+      <!-- Add this section for hoverable cards -->
+
+      <section class="section blog" id="Contactus">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h2 class="h2 section-title">Contact Us</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div id="map">
+                      <!-- Google Map will be displayed here -->
+                      <iframe
+                        width="620px"
+                        height="475px"
+                        frameborder="4"
+                        scrolling="yes"
+                        marginheight="0"
+                        marginwidth="200px"
+                        src="https://maps.google.com/maps?q=YOUR_LOCATION&amp;output=embed">
+                      </iframe>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div id="contact-form">
+                      <form id="Registerationform">
+                        <div class="mb-3" style="justify-content: left; text-align: left;">
+                            <label for="exampleInputEmail1" class="form-label" id="Username"
+                                required>Username</label>
+                            <input type="email" class="form-control"  placeholder="Enter your username " id="exampleInputEmail1">
+          
+                            <label for="exampleInputEmail1" class="form-label" id="Name"
+                                required>Name</label>
+                            <input type="email" class="form-control"placeholder="Enter your Name "  id="Name">
+            
+            
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" placeholder="Enter your Email address " id="Email address"
+                                required>
+                            
+                        </div>
+            
+                        <div class="mb-3">
+                    <label for="Password" class="form-label">Password</label>
+                            <input type="password" class="form-control" placeholder="Enter your Password " id="Password" required>
+                        </div>
+            
+                        <div class="mb-3">            <label for="Password" class="form-label">confirmPassword</label>
+                            <input type="password" class="form-control" name="confirmPassword" placeholder="Confirm your Password "
+                                id="confirmPassword" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Register</button>
+                    </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            
+            </div>
+          </div>
+ 
+    <section class="section blog" id="LiveAuction">
+      <div class="container">
+    <h2 class="h2 section-title"> Featured Items</h2>
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Search for items...">
+      <button onclick="searchItems()">Search</button>
+    
+    
+      <div class="hoverable-cards-list" id="featuredItems">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="hoverable-card" id="card1">
+                <img src="p3.jpg" alt="Featured Item 1" class="card-image">
+              <div class="card-details">
+                <h3 class="card-title">Plaque Depicting  Mary
+                </h3>
+                <p class="card-description">A plaque depicting Mary typically serves as a sacred and artistic representation of the Virgin Mary, a central figure in Christian tradition. These plaques often feature Mary in various poses, such as the Annunciation or the Madonna and Child</p>
+                <a href="#" class="btn card-link">Place Your Bid</a>
+              </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="hoverable-card" id="card2">
+                <img src="p4.jpg" alt="Featured Item 2" class="card-image">
+              <div class="card-details">
+                <h3 class="card-title">Porcelain Mantel Clock</h3>
+                <p class="card-description">A porcelain mantel clock is a refined and elegant timekeeping piece that combines the functional precision of a clock with the aesthetic beauty of porcelain craftsmanship. Typically designed for placement on a mantelpiece or shelf </p>
+                <a href="#" class="btn card-link">Place Your Bid</a>
+              </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="hoverable-card" id="card3">
+                <img src="p6.jpg" alt="Featured Item 3" class="card-image">
+                <div class="card-details">
+                  <h3 class="card-title">Cabinet Plate</h3>
+                  <p class="card-description">A cabinet plate is a decorative and often collectible item that serves both functional and aesthetic purposes. Typically crafted from fine china or porcelain, these plates are designed to be displayed in cabinets or on walls rather than used for dining.</p>
+                  <a href="#" class="btn card-link">Place Your Bid</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="hoverable-card" id="card4">
+                <img src="p11.jpg" alt="Featured Item 4" class="card-image">
+              <div class="card-details">
+                <h3 class="card-title">Antique Compass</h3>
+                <p class="card-description">An antique compass is a fascinating relic that transcends time, embodying the spirit of exploration and navigation from bygone eras. Crafted with precision and often encased in brass or other durable materials, these navigational instruments served as essential tools for adventurers, sailors, and explorers.</p>
+                <a href="#" class="btn card-link">Place Your Bid</a>
+              </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="hoverable-card" id="card5">
+                <img src="p12.jpg" alt="Featured Item 5" class="card-image">
+              <div class="card-details">
+                <h3 class="card-title">Bruton Decorative </h3>
+                <p class="card-description">There isn't a widely recognized term or style specifically known as "Bruton Decorative." It's possible that this term refers to a specific brand, designer, or emerging trend that gained prominence after my last update. If "Bruton Decorative" pertains to a particular. </p>
+                <a href="#" class="btn card-link">Place Your Bid</a>
+              </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="hoverable-card" id="card6">
+                <img src="p13.jpg" alt="Featured Item 6" class="card-image">
+                <div class="card-details">
+                  <h3 class="card-title">Centuries of Cameos</h3>
+                  <p class="card-description">"Centuries of Cameos" evokes a  jewelry over time. Cameos, intricately carved pieces typically featuring raised relief portraits or scenes on a contrasting background, have a rich history dating back centuries. Originating in ancient.</p>
+                  <a href="#" class="btn card-link">Place Your Bid</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="hoverable-card" id="card7">
+                <img src="p14.jpg" alt="Featured Item 7" class="card-image">
+              <div class="card-details">
+                <h3 class="card-title">Ormolu Mounted Sevres</h3>
+                <p class="card-description">
+                  Ormolu-mounted Sèvres pieces represent the pinnacle of luxury and artistic refinement. Sèvres, renowned for its exquisite porcelain, and ormolu, a gilded bronze alloy, come together to create objects of unparalleled beauty. </p>
+                <a href="#" class="btn card-link">Place Your Bid</a>
+              </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="hoverable-card" id="card8">
+                <img src="p1.jpg" alt="Featured Item 8" class="card-image">
+              <div class="card-details">
+                <h3 class="card-title">L’opera Collector Plate</h3>
+                <p class="card-description">The L'opera Collector Plate is a sophisticated and coveted piece that transcends the realm of ordinary tableware, embodying the spirit of fine art within the confines of a functional object crafted with meticulous. </p>
+                <a href="#" class="btn card-link">Place Your Bid</a>
+              </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="hoverable-card" id="card9">
+                <img src="p15.jpg" alt="Featured Item 9" class="card-image">
+                <div class="card-details">
+                  <h3 class="card-title">Silvered And Gilt Bronze</h3>
+                  <p class="card-description">
+                    Silvered and gilt bronze represents a luxurious fusion of metals, creating objects of exquisite extreme beauty and opulence. This technique involves coating bronze with layers of both silver and gold leaf.</p>
+                  <a href="#" class="btn card-link">Place Your Bid</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+       
+        
+       
+        
+        </div>
+        <div class="hoverable-cards-list" id="featuredItems-2">
+          
+        
+        <!-- Card 2 -->
+        
+        <!-- Card 3 -->
+        
+        </div>
+        <div class="hoverable-cards-list" id="featured-item-3">
+          
+        <!-- Card 4 -->
+        
+        <!-- Card 5 -->
+        
+        <!-- Card 6 -->
+        
+      </div>
+    </div>
+    </div>
+  
+  </div>
+</section>
+
+      <section class="section get-start">
+        <div class="container">
+
+          <h2 class="h2 section-title">Get started bidding with 4 simple steps</h2>
+
+          <ul class="get-start-list">
+
+            <li>
+              <div class="get-start-card">
+
+                <div class="card-icon icon-1">
+                  <ion-icon name="person-add-outline"></ion-icon>
+                </div>
+
+                <h3 class="card-title">Create a profile</h3>
+
+                <p class="card-text">
+                  Craft Your Profile Share Your Passion for Antiques. Gateway to a Community of Collectors.
+                </p>
+<br>
+                <a href="#Contactus" class="card-link">Get started</a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="get-start-card">
+
+                <div class="card-icon icon-2">
+                  <ion-icon name="car-outline"></ion-icon>
+                </div>
+
+                <h3 class="card-title">Talk to us</h3>
+
+                <p class="card-text">
+                  
+"Bit Spirit" invites a sense of digital empowerment, urging individuals to articulate their desires preferences, or aspirations within the realm of technology and digital experiences..
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="get-start-card">
+
+                <div class="card-icon icon-3">
+                  <ion-icon name="person-outline"></ion-icon>
+                </div>
+
+                <h3 class="card-title">Match with seller</h3>
+
+                <p class="card-text">
+                  Find Your Perfect Match with Our Trusted Sellers, and Bid Confidently with us and fullfill your dreams of getting antiques watches, compasses, antique paintings.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="get-start-card">
+
+                <div class="card-icon icon-4">
+                  <ion-icon name="card-outline"></ion-icon>
+                </div>
+
+                <h3 class="card-title">Make a BID</h3>
+
+                <p class="card-text">
+                 
+"Make a Bid with Bit Spirit" symbolizes an active engagement with the digital landscape, where individuals assert their intentions, ideas, or offerings within the realm of technology. 
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog" id="blog">
+        <div class="container">
+
+          <h2 class="h2 section-title">Our Blog</h2>
+
+          <ul class="blog-list has-scrollbar">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="./assets/images/blog-1.jpg" alt="Opening of new offices of the company" loading="lazy"
+                      class="w-100">
+                  </a>
+
+                  <a href="#" class="btn card-badge">Company</a>
+
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">
+                    <a href="#">
+                     
+"Bit Spirit Company" emerges as a beacon in the tech landscape, embodying a dynamic ethos that embraces innovation</a>
+                  </h3>
+
+                  <div class="card-meta">
+
+                    <div class="publish-date">
+                      <ion-icon name="time-outline"></ion-icon>
+
+                      <time datetime="2022-01-14">January 14, 2022</time>
+                    </div>
+
+                    <div class="comments">
+                      <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+
+                      <data value="114">114</data>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="p16.jpg" alt="What cars are most vulnerable" loading="lazy"
+                      class="w-100">
+                  </a>
+
+                  <a href="#" class="btn card-badge">Home Dacor</a>
+
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">
+                    <a href="#">"Bit Spirit Home Decor" emerges as a distinctive brand that marries the realms of technology and interior aesthetics.</a>
+                  </h3>
+
+                  <div class="card-meta">
+
+                    <div class="publish-date">
+                      <ion-icon name="time-outline"></ion-icon>
+
+                      <time datetime="2022-01-14">January 14, 2022</time>
+                    </div>
+
+                    <div class="comments">
+                      <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+
+                      <data value="114">114</data>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="p17.jpg" alt="Statistics showed which average age" loading="lazy"
+                      class="w-100">
+                  </a>
+
+                  <a href="#" class="btn card-badge">Painting</a>
+
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">
+                    <a href="#">
+                      "Bit Spirit Paintings" revolutionizes traditional art with a contemporary and tech-infused twist expressions.</a>
+                  </h3>
+
+                  <div class="card-meta">
+
+                    <div class="publish-date">
+                      <ion-icon name="time-outline"></ion-icon>
+
+                      <time datetime="2022-01-14">January 14, 2022</time>
+                    </div>
+
+                    <div class="comments">
+                      <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+
+                      <data value="114">114</data>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="a1.jfif" alt="What´s required when renting a car?" loading="lazy"
+                      class="w-100">
+                  </a>
+
+                  <a href="#" class="btn card-badge">Cars</a>
+
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">
+                    <a href="#">
+                      "Bit Spirit Cars" emerges as a trailblazer in the automotive industry, embodying a futuristic vision where cutting-edge.</a>
+                  </h3>
+
+                  <div class="card-meta">
+
+                    <div class="publish-date">
+                      <ion-icon name="time-outline"></ion-icon>
+
+                      <time datetime="2022-01-14">January 14, 2022</time>
+                    </div>
+
+                    <div class="comments">
+                      <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+
+                      <data value="114">114</data>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="a2.webp" alt="New rules for handling our cars" loading="lazy"
+                      class="w-100">
+                  </a>
+
+                  <a href="#" class="btn card-badge">Coins</a>
+
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">
+                    <a href="#">"Bit Spirit Coins" introduces a novel and innovative approach to currency, seamlessly blending traditional monetary.</a>
+                  </h3>
+
+                  <div class="card-meta">
+
+                    <div class="publish-date">
+                      <ion-icon name="time-outline"></ion-icon>
+
+                      <time datetime="2022-01-14">January 14, 2022</time>
+                    </div>
+
+                    <div class="comments">
+                      <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+
+                      <data value="114">114</data>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-top">
+
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <h2>Bid Spirit</h2>
+          </a>
+
+          <p class="footer-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc imperdiet, odio at sollicitudin semper, sapien dolor tristique libero, sit amet congue elit dolor sit amet nulla.
+          </p>
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Company</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">About us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Our Rules</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Our blog</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Contacts</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Support</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Help center</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Ask a question</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Privacy policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Terms & conditions</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Helpful Links to Surf</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Live Auctions</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Draws Result</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Upcoming Auction</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Top Bidders</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Lucky Draws</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Upcoming Draws</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">New Bidders</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Hall of Fame</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-skype"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="mail-outline"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+        <p class="copyright">
+          &copy; 2023 <a href="#">Anas Ishtiaq</a>. All Rights Reserved
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.slim.js" integrity="sha256-UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc=" crossorigin="anonymous"></script>
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</body>
+<script>
+ function searchItems() {
+  let input = document.getElementById('searchInput');
+  let filter = input.value.toUpperCase();
+  let items = document.getElementById('featuredItems').getElementsByClassName('hoverable-card');
+
+  for (let i = 0; i < items.length; i++) {
+    let title = items[i].getElementsByClassName('card-title')[0];
+    let description = items[i].getElementsByClassName('card-description')[0];
+    let cardText = title.textContent || title.innerText;
+    let descriptionText = description.textContent || description.innerText;
+
+    if (cardText.toUpperCase().indexOf(filter) > -1 || descriptionText.toUpperCase().indexOf(filter) > -1) {
+      items[i].style.display = '';
+    } else {
+      items[i].style.display = 'none';
+    }
+  }
+}
+// Function to handle scroll animation
+function scrollAnimation() {
+  const sections = document.querySelectorAll('.section');
+
+  sections.forEach(section => {
+    const sectionPosition = section.getBoundingClientRect().top;
+    const screenHeight = window.innerHeight / 1.5;
+
+    if (sectionPosition < screenHeight) {
+      section.classList.add('animate');
+    } else {
+      section.classList.remove('animate');
+    }
+  });
+}
+
+// Listen for scroll events and trigger the scrollAnimation function
+window.addEventListener('scroll', scrollAnimation);
+
+// Initial call to the function in case some sections are already visible on page load
+scrollAnimation();
+
+
+
+</script>
+<script>
+  $('.hero-slider').slick({
+  infinite: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+   prevArrow: '<button type="button" class="slick-custom-arrow slick-prev"> < </button>',
+  nextArrow: '<button type="button" class="slick-custom-arrow slick-next"> > </button>'
+});
+		
+</script>
+</html>
